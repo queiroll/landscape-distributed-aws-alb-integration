@@ -47,8 +47,8 @@ A helper script is provided to simplify deployment. You can run the script on a 
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/queiroll/landscape-distributed-aws-alb-integration.git
-    cd lanscape-distributed-aws-alb-integration
-    
+    cd landscape-distributed-aws-alb-integration
+
     ```
 
 2.  **Run the deployment script:**
