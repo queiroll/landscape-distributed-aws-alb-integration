@@ -11,7 +11,7 @@ The CloudFormation template requires the following parameters at deployment time
 
 * **`JujuModelUUID` (Required)**
     * The unique UUID of the Juju model you want to target.
-    * You can find this by running `juju models` or by looking at the tags of an existing instance.
+    * You can find this by running `juju models --uuid` or by looking at the tags of an existing EC2 instance managed by Juju.
     * Example: `be486ec1-dc9e-4e73-8d38-65adf280a911`
 
 * **`JujuAppName` (Optional)**
