@@ -1,8 +1,6 @@
 # AWS Application Load Balancer integration for Landscape Distributed
 
-This project automates the deployment and management of an AWS Application Load Balancer (ALB) for an application deployed via Juju on EC2. It uses a tag-based, event-driven approach to automatically discover and register new Juju-managed instances as they are created, providing a seamless integration between the Juju model and native AWS load balancing.
-
-This solution has been designed for a Canonical Landscape deployment but is generic enough to be adapted for any Juju-managed application that exposes HTTP/S services.
+This project automates the deployment of an AWS Application Load Balancer (ALB) for a distributed Landscape application deployed via Juju on AWS. It uses a tag-based, event-driven approach to automatically discover and register new Juju-managed EC2 instances as they are created, providing a seamless integration between the Juju model and native AWS load balancing.
 
 ---
 ## Configuration Parameters
